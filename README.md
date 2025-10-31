@@ -58,8 +58,39 @@ This project laid the foundation for my later work. For example:
 
 ---
 
+## 💻 How to Run Locally  
+
+Follow these steps to run the app on your machine:  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/dark-triad-detector.git
+   cd dark-triad-detector
+   ```
+
+2. **Create and activate a virtual environment (optional but recommended)**  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On macOS/Linux
+   venv\Scripts\activate      # On Windows
+   ```
+
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit app**  
+   ```bash
+   streamlit run app.py
+   ```
+
+5. **Open in your browser**  
+   Streamlit will provide a local URL (usually `http://localhost:8501`) where you can interact with the app.  
+
+---
+
 ## 🙌 Acknowledgments  
 This project reflects my curiosity about behavioral insights and my determination to learn by building. It’s not just code—it’s the story of my first step into applied AI and product development.  
 
 ---
-            
